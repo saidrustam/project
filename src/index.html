@@ -6,10 +6,11 @@
     <title>Pulse2</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a class="header__logo">
@@ -47,11 +48,70 @@
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
-            
-            
-
         </div>
-    </div>
+    </section>
+
+    <section class="advantage">
+        <div class="container">
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advantage__items">
+                <div class="advantage__item">
+                    <img src="icons/cup.svg" alt="Делимся опытом">
+                    <div class="advantage__item__title">Делимся опытом</div>
+                    <div class="advantage__item__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
+                </div>
+                <div class="advantage__item">
+                    <img src="icons/heart.svg" alt="Заботимся о здоровье">
+                    <div class="advantage__item__title">Заботимся о здоровье</div>
+                    <div class="advantage__item__descr">Мы работаем для того,<br> чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div>
+                </div>
+                <div class="advantage__item">
+                    <img src="icons/shoe.svg" alt="Учим бегать">
+                    <div class="advantage__item__title">Учим бегать</div>
+                    <div class="advantage__item__descr">Помогаем с обучением <br> правильной технике бега!<br> Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию <br>
+                по подбору пульсометра
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+
+            <form class="feed-form" action="#">
+                <input name="name" required type="text" placeholder="Ваше имя">
+                <input name="phone" required type="number" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваш E-mail">
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+    </section>
     
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/Слайд №1.jpg" alt="slide 1">
+                </div>
+                <div>
+                    <img src="img/Слайд №2.png" alt="slide 2">
+                </div>
+                <div>
+                    <img src="img/Слайд №3.jpg" alt="slide 3">
+                </div>
+              </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
