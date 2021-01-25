@@ -1,0 +1,30 @@
+.feedback {
+    padding-bottom: 50px;
+    &__item {
+        margin-top: 60px;
+        display: flex;
+    }
+
+    &__img {
+        display: block;
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+    &__user {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__userstars {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}

@@ -24,6 +24,11 @@
         font-size: 16px;
         line-height: 47px;
     }
+    .footer__info {
+        position: relative;
+        width: 100%;
+        padding: 30px 10px 10px;
+    }
 
 }
 @media (max-width: 720px) {
@@ -71,7 +76,18 @@
     }
 }
 @media (max-width: 540px) {
-
+    .feedback {
+        &__item {
+            display: block;
+        }
+        &__user, &__userstars {
+            text-align: center;
+        }
+        &__img {
+            margin: 0 auto 15px ;
+        }
+        
+    }
 }
 @media (max-width: 490px) {
     .header {
