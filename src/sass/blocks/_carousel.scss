@@ -9,7 +9,7 @@
     .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translate(-50%, -50%);
         left: -66px;
         border: none;
         background-color: #fff;
@@ -21,6 +21,7 @@
     .slick-next {
         left:auto;   
         right: -66px;
+        transform: translate(50%, -50%);
 
     }
 }
